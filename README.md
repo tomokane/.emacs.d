@@ -14,7 +14,7 @@
 ## 構成概要
 パッケージ管理は**cask**、
 
-設定ファイルは**initloader**を利用しています。
+設定ファイルは**initloader**を利用して分割して記述しています。
 
 初学者向けに打鍵矯正用パッケージ**鬼軍曹.el**が入ってます。
 
@@ -26,15 +26,15 @@ caskの導入
 
 caskに記述したパッケージをインストール
 
-`cd ~/.emacs.d ; cask  `
+`cd ~/.emacs.d ; cask`
 
 インストールされているパッケージを更新
 
-`cd ~/.emacs.d ; cask update  `
+`cd ~/.emacs.d ; cask update`
 
 caskを更新
 
-`cd ~/.emacs.d ; cask update  `
+`cd ~/.emacs.d ; cask upgrade`
 
 
 ## 参考資料
