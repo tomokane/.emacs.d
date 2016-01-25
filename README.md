@@ -11,25 +11,28 @@
 - GNU Emacs 24.5
 - cask 0.7.5
 
-## 使い方
-*作成中*
+## 構成概要
+パッケージ管理は**cask**、
 
+設定ファイルは**initloader**を利用しています。
 
-## caskよく使うコマンド
+初学者向けに打鍵矯正用パッケージ**鬼軍曹.el**が入ってます。
 
-*caskの導入*
+## cask頻出コマンド
+
+caskの導入
 
 `brew install cask ; cd ~/.emacs.d ; cask init`
 
-*caskに記述したパッケージをインストール*
+caskに記述したパッケージをインストール
 
 `cd ~/.emacs.d ; cask  `
 
-*インストールされているパッケージを更新*
+インストールされているパッケージを更新
 
 `cd ~/.emacs.d ; cask update  `
 
-*caskを更新*
+caskを更新
 
 `cd ~/.emacs.d ; cask update  `
 
@@ -48,4 +51,4 @@ http://www.shigemk2.com/entry/20111009/1318175297
 
 ## License
 
-*Default*
+Default
