@@ -1,34 +1,48 @@
 
 # .emacs.d
+![Emacs](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/EmacsIcon.svg/240px-EmacsIcon.svg.png "Emacs")
 
 ## 説明
 
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
-DescriptionDescriptionDescription
+会社と家で使うEmacsの設定をまとめたかった。
 
-## よく使うオススメの機能
+## 動作環境
 
-- Awesome function
-- Awesome UI
-- ...
+- GNU Emacs 24.5
+- cask 0.7.5
 
-For more information, see `awesome-tool --help`.
+## caskよく使うコマンド
 
-## 利用条件
+caskの導入
 
-- Emacsが入っていれば大丈夫かと。コマンドとかも書いたほうがいいかな。
+brew install cask ; cd ~/.emacs.d ; cask init
 
-## 使い方
+caskに記述したパッケージをインストール
 
-1. Usage
-2. Usage
-3. Usage
+cd ~/.emacs.d ; cask  
+
+インストールされているパッケージを更新
+
+cd ~/.emacs.d ; cask update  
+
+caskを更新
+
+cd ~/.emacs.d ; cask update  
+
+
 
 ## 参考資料
 
-参考にしたURLを貼り付ける予定
+http://kiririmode.hatenablog.jp/entry/20141228/1419762171
+
+http://posaune.hatenablog.com/entry/2014/06/17/221041
+
+http://blog.shibayu36.org/entry/2012/12/29/001418
+
+http://d.hatena.ne.jp/rkworks/20120520/1337528737
+
+http://www.shigemk2.com/entry/20111009/1318175297
 
 ## License
 
-検討中
+Default
